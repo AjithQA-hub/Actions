@@ -23,8 +23,5 @@ public class ActionsTask3 {
 		WebElement Flipkart = driver.findElement(By.xpath("(//div[@class='eFQ30H'])[5]"));
 		
 		a.moveToElement(Flipkart).perform();
-		
-		
 	}
-
-} 
+}
