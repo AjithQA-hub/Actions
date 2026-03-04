@@ -21,8 +21,6 @@ public class ActionsTask17 {
 			Actions a=new Actions(driver);
 			
 			WebElement Flipkart1 = driver.findElement(By.xpath("(//div[@class='xtXmba'])[6]"));
-			a.moveToElement(Flipkart1).perform();
-			
+			a.moveToElement(Flipkart1).perform();	
 	}
-
 }
