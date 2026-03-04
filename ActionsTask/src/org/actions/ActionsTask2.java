@@ -23,10 +23,5 @@ public class ActionsTask2 {
 		WebElement amazonPrime = driver.findElement(By.id("nav-link-amazonprime"));
 		
 		a.moveToElement(amazonPrime).perform();
-	
-		
-		
-		
 	}
-
 }
