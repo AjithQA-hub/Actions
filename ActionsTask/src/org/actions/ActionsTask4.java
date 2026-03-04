@@ -23,8 +23,6 @@ public class ActionsTask4 {
 		WebElement ShopClues = driver.findElement(By.id("nav_44"));
 		
 		a.moveToElement(ShopClues).perform();	
-		
-		
-	}
 
+	}
 }
