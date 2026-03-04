@@ -23,9 +23,5 @@ public class ActionsTask15 {
 		WebElement Amazon1 = driver.findElement(By.xpath("(//div[@class='xtXmba'])[9]"));
 		
 		a.moveToElement(Amazon1).perform();
-		
-		
-		
 	}
-
 }
