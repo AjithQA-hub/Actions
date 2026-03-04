@@ -32,7 +32,5 @@ public class ActionsChallenge8 {
 		WebElement Homedepot4= driver.findElement(By.xpath("//a[text()='Portable Air Conditioners']"));
 		Homedepot4.click();
 		
-		
 	}
-
 }
