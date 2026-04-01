@@ -21,7 +21,5 @@ public class ActionsTask12 {
 		
 		WebElement Amazon1 = driver.findElement(By.id("nav-link-accountList"));
 		a.moveToElement(Amazon1).perform();
-		
-
-}
+	}
 }
