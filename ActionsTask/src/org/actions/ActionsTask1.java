@@ -39,8 +39,6 @@ public class ActionsTask1 {
         WebElement salesAmt = driver.findElement(By.xpath("//a[text()=' 5000 ']"));
 		
 		WebElement salesAcnt = driver.findElement(By.xpath("//li[@class='placeholder']"));
-		a.dragAndDrop(salesAmt, salesAcnt).perform();
-		   
+		a.dragAndDrop(salesAmt, salesAcnt).perform();  
 	}
-
 }
