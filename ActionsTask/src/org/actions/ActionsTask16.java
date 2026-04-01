@@ -10,7 +10,6 @@ public class ActionsTask16{
 	
 	public static void main(String[] args) {
 		
-
         System.setProperty("webdriver.chrome.driver","C:\\Users\\AJITH\\eclipse-workspace\\InmakesActions\\Drivers\\chromedriver.exe");
 		
 		WebDriver driver=new ChromeDriver();
@@ -23,7 +22,5 @@ public class ActionsTask16{
 		
 		WebElement Flipkart1 = driver.findElement(By.xpath("(//div[@class='xtXmba'])[4]"));
 		a.moveToElement(Flipkart1).perform();
-		
 	}
-
 }
